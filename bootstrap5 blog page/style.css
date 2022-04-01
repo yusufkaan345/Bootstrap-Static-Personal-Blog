@@ -1,0 +1,70 @@
+.blog-header-logo{
+    font-size: 2.25rem;
+    color:rgb(59, 59, 172)
+
+}
+.blog-header{
+    border-bottom:1px solid black
+}
+.paragraph-2{
+    display: none;
+    color:white;
+}
+.alink2{
+    display: none;
+  
+}
+.img{
+    width:45%;
+    height: 90%;
+}
+.articles{
+    border-bottom: 1px solid black;
+}
+.article_para1{
+    display: none;
+  
+}
+.article_para2{
+    display: none;
+  
+}
+.alink4{
+    display: none;
+  
+}
+.alink6{
+    display: none;
+  
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.aside{
+    margin: 8rem;
+    width: 55%;
+    height: 8%;
+}
+.achieves{
+    margin-left: 5rem;
+    
+}
+.blog-footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 200px;
+}
+@media only screen and (max-width: 600px) {
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .achieves{
+        margin-left: 4rem;
+        
+       
+        
+    }
+  }
